@@ -1,0 +1,539 @@
+@prefix : <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> .
+
+<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> rdf:type owl:Ontology ;
+                                                                                  owl:imports <http://www.w3.org/ns/ssn/> ,
+                                                                                              <https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/bot.ttl> ;
+                                                                                  <http://purl.org/dc/terms/creator> "SUITE5" ;
+                                                                                  <http://purl.org/dc/terms/description> "This is the ontology focusing on describing the occupants behaviour inside a building. For that, the ontology  models f the context environment and users interaction to set the parameters for comfort behavioural profile" ;
+                                                                                  <http://purl.org/dc/terms/license> "The 2.0 version of the Apache License" ;
+                                                                                  <http://purl.org/dc/terms/title> "BIM4EEB Occupant Behaviour Ontology" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdfs:range xsd:string .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Feedback
+:Feedback rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#HVAC
+:HVAC rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Humidity
+:Humidity rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Inaction
+:Inaction rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Lights
+:Lights rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Luminance
+:Luminance rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Radiator
+:Radiator rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SystemAction
+:SystemAction rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Temperature
+:Temperature rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#weekend
+:weekend rdf:type rdfs:Datatype .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#workday
+:workday rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#containsOccupants
+:containsOccupants rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActions
+:hasActions rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivities
+:hasActivities rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityComfortProfile
+:hasActivityComfortProfile rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasArtefacts
+:hasArtefacts rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour
+:hasBehaviour rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasComfort
+:hasComfort rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDevices
+:hasDevices rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDrivers
+:hasDrivers rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasModelParameters
+:hasModelParameters rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccProfiles
+:hasOccProfiles rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccupants
+:hasOccupants rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasZoneComfortProfile
+:hasZoneComfortProfile rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActions
+:performsActions rdf:type owl:ObjectProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActivities
+:performsActivities rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType
+:actionType rdf:type owl:DatatypeProperty ;
+            rdfs:range :Feedback ,
+                       :Inaction ,
+                       :SystemAction .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName
+:actuationName rdf:type owl:DatatypeProperty ;
+               rdfs:range :HVAC ,
+                          :Lights ,
+                          :Radiator .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age
+:age rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf owl:topDataProperty ;
+     rdfs:range xsd:integer .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName
+:comfortName rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:string .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortType
+:comfortType rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:string .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion
+:comfortVersion rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:range xsd:integer .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#createdTime
+:createdTime rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:range :weekend ,
+                 :workday .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description
+:description rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime
+:endTime rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender
+:gender rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:range xsd:string .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName
+:hasActivityName rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:range xsd:string .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype
+:jobtype rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:range xsd:string .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#lifestyle
+:lifestyle rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:string .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#maxOccupancy
+:maxOccupancy rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#modelParameters
+:modelParameters rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName
+:observationName rdf:type owl:DatatypeProperty ;
+                 rdfs:range :Humidity ,
+                            :Luminance ,
+                            :Temperature .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#occupantsNumber
+:occupantsNumber rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority
+:priority rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:range xsd:string .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#profileversion
+:profileversion rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#season
+:season rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime
+:startTime rdf:type owl:DatatypeProperty .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#version
+:version rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/sosa/ActuatableProperty
+<http://www.w3.org/ns/sosa/ActuatableProperty> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :actuationName ;
+                                                                 owl:allValuesFrom xsd:string
+                                                               ] .
+
+
+###  http://www.w3.org/ns/sosa/ObservableProperty
+<http://www.w3.org/ns/sosa/ObservableProperty> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty :observationName ;
+                                                                 owl:allValuesFrom xsd:string
+                                                               ] .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Acoustics
+:Acoustics rdf:type owl:Class ;
+           rdfs:subClassOf :Comfort ;
+           rdfs:label "Acoustics Comfort" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions
+:Actions rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.w3.org/ns/sosa/Actuation> ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :description ;
+                           owl:someValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :actionType ;
+                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onDataRange xsd:string
+                         ] .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities
+:Activities rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasActivityComfortProfile ;
+                              owl:someValuesFrom :Comfort
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasArtefacts ;
+                              owl:someValuesFrom <http://www.w3.org/ns/ssn/System>
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :description ;
+                              owl:someValuesFrom xsd:string
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :endTime ;
+                              owl:allValuesFrom xsd:dateTimeStamp
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasActivityName ;
+                              owl:allValuesFrom xsd:string
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :startTime ;
+                              owl:allValuesFrom xsd:dateTimeStamp
+                            ] ;
+            rdfs:comment "The list of building activities performed in the building environment" ;
+            rdfs:label "Building Activities" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort
+:Comfort rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :hasModelParameters ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :ModelResult
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :comfortName ;
+                           owl:allValuesFrom xsd:string
+                         ] ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :comfortVersion ;
+                           owl:allValuesFrom xsd:integer
+                         ] ;
+         rdfs:comment "Comfort parameter represent the physical and non-physical requirement of the occupant's inside world that must be met in order to ensure the satisfaction of the occupant with their environment" ;
+         rdfs:label "Behavioural Comfort Aspects" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult
+:ModelResult rdf:type owl:Class ;
+             rdfs:subClassOf [ rdf:type owl:Restriction ;
+                               owl:onProperty :createdTime ;
+                               owl:allValuesFrom xsd:dateTimeStamp
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :modelParameters ;
+                               owl:allValuesFrom rdfs:Literal
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :season ;
+                               owl:allValuesFrom xsd:string
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :version ;
+                               owl:allValuesFrom xsd:integer
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :date ;
+                               owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onDataRange xsd:string
+                             ] ;
+             rdfs:comment "The detailed model parameters associated with profiling method to be considered for comfort analysis" ;
+             rdfs:label "Comfort Profiling Model Results" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile
+:OccupancyProfile rdf:type owl:Class ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty :containsOccupants ;
+                                    owl:someValuesFrom :Occupant
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :endTime ;
+                                    owl:allValuesFrom xsd:dateTimeStamp
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :occupantsNumber ;
+                                    owl:allValuesFrom xsd:integer
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :startTime ;
+                                    owl:allValuesFrom xsd:dateTimeStamp
+                                  ] ;
+                  rdfs:comment "The occupant profiles refers to the daily or most common ocupation profiles inside the building (e.g start or end work)" ;
+                  rdfs:label "Occupancy Profiles" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant
+:Occupant rdf:type owl:Class ;
+          rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :performsActions ;
+                            owl:someValuesFrom :Actions
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :performsActivities ;
+                            owl:someValuesFrom :Activities
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasBehaviour ;
+                            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :OccupantBehaviour
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty <http://xmlns.com/foaf/0.1/name> ;
+                            owl:someValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :jobtype ;
+                            owl:someValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :priority ;
+                            owl:someValuesFrom xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :age ;
+                            owl:allValuesFrom xsd:integer
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :gender ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] ;
+          rdfs:comment "The occupant entity in the model" ;
+          rdfs:label "Building Occupant" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour
+:OccupantBehaviour rdf:type owl:Class ;
+                   rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasActions ;
+                                     owl:someValuesFrom :Actions
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasDrivers ;
+                                     owl:someValuesFrom <http://www.w3.org/ns/sosa/ObservableProperty>
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :hasComfort ;
+                                     owl:allValuesFrom :Comfort
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty :profileversion ;
+                                     owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                     owl:onDataRange xsd:integer
+                                   ] ;
+                   rdfs:comment "The occupant behavioural analysis refers to the building occupants preferences regarding the comfort sensation along wiht interaction with the different systems under different contextual and operational conditions" ;
+                   rdfs:label "Occupant  Behavioural Conditions" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Thermal
+:Thermal rdf:type owl:Class ;
+         rdfs:subClassOf :Comfort ;
+         rdfs:label "Thermal Comfort" .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Visual
+:Visual rdf:type owl:Class ;
+        rdfs:subClassOf :Comfort ;
+        rdfs:label "Visual Comfort" .
+
+
+###  https://w3id.org/bot#Zone
+<https://w3id.org/bot#Zone> rdf:type owl:Class ;
+                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasActivities ;
+                                              owl:someValuesFrom :Activities
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasOccProfiles ;
+                                              owl:someValuesFrom :OccupancyProfile
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasOccupants ;
+                                              owl:someValuesFrom :Occupant
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :hasZoneComfortProfile ;
+                                              owl:someValuesFrom :Comfort
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty :maxOccupancy ;
+                                              owl:allValuesFrom xsd:integer
+                                            ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ACOUSTICS
+:ACOUSTICS rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#DIMMER
+:DIMMER rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#IAQ
+:IAQ rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#LAMP
+:LAMP rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#RADIATORVALVE
+:RADIATORVALVE rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SWITCH
+:SWITCH rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMAL
+:THERMAL rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMOSTAT
+:THERMOSTAT rdf:type owl:NamedIndividual .
+
+
+###  https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#VISUAL
+:VISUAL rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/

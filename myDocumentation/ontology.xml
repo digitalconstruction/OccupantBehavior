@@ -1,0 +1,924 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#"
+     xml:base="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/">
+    <owl:Ontology rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl">
+        <owl:imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/bot.ttl"/>
+        <terms:creator>SUITE5</terms:creator>
+        <terms:description>This is the ontology focusing on describing the occupants behaviour inside a building. For that, the ontology  models f the context environment and users interaction to set the parameters for comfort behavioural profile</terms:description>
+        <terms:license>The 2.0 version of the Apache License</terms:license>
+        <terms:title>BIM4EEB Occupant Behaviour Ontology</terms:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Feedback -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Feedback"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#HVAC -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#HVAC"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Humidity -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Humidity"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Inaction -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Inaction"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Lights -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Lights"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Luminance -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Luminance"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Radiator -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Radiator"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SystemAction -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SystemAction"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Temperature -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Temperature"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#weekend -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#weekend"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#workday -->
+
+
+    <rdfs:Datatype rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#workday"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#containsOccupants -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#containsOccupants"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActions -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActions"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivities -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivities"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityComfortProfile -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityComfortProfile"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasArtefacts -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasArtefacts"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasComfort -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasComfort"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDevices -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDevices"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDrivers -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDrivers"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasModelParameters -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasModelParameters"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccProfiles -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccProfiles"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccupants -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccupants"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasZoneComfortProfile -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasZoneComfortProfile"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActions -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActions"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActivities -->
+
+
+    <owl:ObjectProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActivities"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType">
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Feedback"/>
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Inaction"/>
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SystemAction"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName">
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#HVAC"/>
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Lights"/>
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Radiator"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortType -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#createdTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#createdTime"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date">
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#weekend"/>
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#workday"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#lifestyle -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#lifestyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#maxOccupancy -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#maxOccupancy"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#modelParameters -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#modelParameters"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName">
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Humidity"/>
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Luminance"/>
+        <rdfs:range rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Temperature"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#occupantsNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#occupantsNumber"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#profileversion -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#profileversion"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#season -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#season"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#version -->
+
+
+    <owl:DatatypeProperty rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#version"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ActuatableProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ActuatableProperty">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Acoustics -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Acoustics">
+        <rdfs:subClassOf rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort"/>
+        <rdfs:label>Acoustics Comfort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Actuation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityComfortProfile"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasArtefacts"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The list of building activities performed in the building environment</rdfs:comment>
+        <rdfs:label>Building Activities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasModelParameters"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Comfort parameter represent the physical and non-physical requirement of the occupant&apos;s inside world that must be met in order to ensure the satisfaction of the occupant with their environment</rdfs:comment>
+        <rdfs:label>Behavioural Comfort Aspects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#createdTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#modelParameters"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#season"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#version"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The detailed model parameters associated with profiling method to be considered for comfort analysis</rdfs:comment>
+        <rdfs:label>Comfort Profiling Model Results</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#containsOccupants"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#occupantsNumber"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The occupant profiles refers to the daily or most common ocupation profiles inside the building (e.g start or end work)</rdfs:comment>
+        <rdfs:label>Occupancy Profiles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActions"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActivities"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The occupant entity in the model</rdfs:comment>
+        <rdfs:label>Building Occupant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActions"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDrivers"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasComfort"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#profileversion"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The occupant behavioural analysis refers to the building occupants preferences regarding the comfort sensation along wiht interaction with the different systems under different contextual and operational conditions</rdfs:comment>
+        <rdfs:label>Occupant  Behavioural Conditions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Thermal -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Thermal">
+        <rdfs:subClassOf rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort"/>
+        <rdfs:label>Thermal Comfort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Visual -->
+
+
+    <owl:Class rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Visual">
+        <rdfs:subClassOf rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort"/>
+        <rdfs:label>Visual Comfort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/bot#Zone -->
+
+
+    <owl:Class rdf:about="https://w3id.org/bot#Zone">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivities"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccProfiles"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccupants"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasZoneComfortProfile"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#maxOccupancy"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ACOUSTICS -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ACOUSTICS"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#DIMMER -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#DIMMER"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#IAQ -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#IAQ"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#LAMP -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#LAMP"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#RADIATORVALVE -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#RADIATORVALVE"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SWITCH -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SWITCH"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMAL -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMAL"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMOSTAT -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMOSTAT"/>
+    
+
+
+    <!-- https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#VISUAL -->
+
+
+    <owl:NamedIndividual rdf:about="https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#VISUAL"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
+
