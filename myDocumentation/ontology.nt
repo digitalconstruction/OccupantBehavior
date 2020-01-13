@@ -1,10 +1,15 @@
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/ssn/> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> <http://www.w3.org/2002/07/owl#imports> <https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/bot.ttl> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> <http://purl.org/dc/terms/creator> "SUITE5" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> <http://purl.org/dc/terms/description> "This is the ontology focusing on describing the occupants behaviour inside a building. For that, the ontology  models f the context environment and users interaction to set the parameters for comfort behavioural profile" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> <http://purl.org/dc/terms/license> "The 2.0 version of the Apache License" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl> <http://purl.org/dc/terms/title> "BIM4EEB Occupant Behaviour Ontology" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://www.w3.org/2002/07/owl#imports> <https://w3id.org/digitalconstruction/Agents#> .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/elements/1.1/date> "2019-12-20" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/abstract> "Ontology of occupants behavior inside a building, including the environment and users interactions to set the parameters of comfort behavioral profile" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/creator> "Kostas Tsatsakis (kostas@suite5.eu)" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/creator> "Spiros Kousouris (spiros@suite5.eu)" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/description> "Ontology of occupants behavior inside a building. The ontology  models the environment and users interactions to set the parameters for comfort behavioral profile" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/title> "Digital Construction - OccupantBehavior" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/vocab/vann/preferredNamespacePrefix> "dico" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Digital construction - OccupantBehavior" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/digitalconstruction> .
 # 
 # 
 # #################################################################
@@ -14,8 +19,17 @@
 # #################################################################
 # 
 # 
-# http://xmlns.com/foaf/0.1/name
-<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/abstract
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -26,38 +40,38 @@
 # #################################################################
 # 
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Feedback
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#Feedback
+<https://w3id.org/digitalconstruction/OccupantBehavior#Feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#HVAC
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#HVAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#HVAC
+<https://w3id.org/digitalconstruction/OccupantBehavior#HVAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Humidity
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#Humidity
+<https://w3id.org/digitalconstruction/OccupantBehavior#Humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Inaction
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Inaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#Inaction
+<https://w3id.org/digitalconstruction/OccupantBehavior#Inaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Lights
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Lights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#Lights
+<https://w3id.org/digitalconstruction/OccupantBehavior#Lights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Luminance
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Luminance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#Luminance
+<https://w3id.org/digitalconstruction/OccupantBehavior#Luminance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Radiator
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#Radiator
+<https://w3id.org/digitalconstruction/OccupantBehavior#Radiator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SystemAction
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SystemAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#SystemAction
+<https://w3id.org/digitalconstruction/OccupantBehavior#SystemAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Temperature
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#Temperature
+<https://w3id.org/digitalconstruction/OccupantBehavior#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#weekend
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#weekend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#weekend
+<https://w3id.org/digitalconstruction/OccupantBehavior#weekend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#workday
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#workday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#workday
+<https://w3id.org/digitalconstruction/OccupantBehavior#workday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
 # 
 # 
@@ -68,51 +82,51 @@
 # #################################################################
 # 
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#containsOccupants
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#containsOccupants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#containsOccupant
+<https://w3id.org/digitalconstruction/OccupantBehavior#containsOccupant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActions
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasAction
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivities
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasActivity
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityComfortProfile
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityComfortProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityComfortProfile
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityComfortProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasArtefacts
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasArtefacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasComfort
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDevices
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasDevice
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDrivers
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDrivers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasDriver
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasDriver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasModelParameters
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasModelParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasModelParameter
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasModelParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccProfiles
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccProfiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupancyProfile
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupancyProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccupants
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccupants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupant
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasZoneComfortProfile
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasZoneComfortProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasZoneComfortProfile
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasZoneComfortProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActions
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#performsAction
+<https://w3id.org/digitalconstruction/OccupantBehavior#performsAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActivities
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActivities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#performsActivity
+<https://w3id.org/digitalconstruction/OccupantBehavior#performsActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
 # 
 # 
@@ -123,103 +137,103 @@
 # #################################################################
 # 
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Feedback> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Inaction> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SystemAction> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#actionType
+<https://w3id.org/digitalconstruction/OccupantBehavior#actionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#actionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#Feedback> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#actionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#Inaction> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#actionType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#SystemAction> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#HVAC> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Lights> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Radiator> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#actuationName
+<https://w3id.org/digitalconstruction/OccupantBehavior#actuationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#actuationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#HVAC> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#actuationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#Lights> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#actuationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#Radiator> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#age
+<https://w3id.org/digitalconstruction/OccupantBehavior#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#age> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#comfortName
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortType
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#comfortType
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#createdTime
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#createdTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#createdTime
+<https://w3id.org/digitalconstruction/OccupantBehavior#createdTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#weekend> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#workday> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#date
+<https://w3id.org/digitalconstruction/OccupantBehavior#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#date> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#weekend> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#date> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#workday> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#description
+<https://w3id.org/digitalconstruction/OccupantBehavior#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#endTime
+<https://w3id.org/digitalconstruction/OccupantBehavior#endTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#gender
+<https://w3id.org/digitalconstruction/OccupantBehavior#gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#gender> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#gender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityName
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#jobtype
+<https://w3id.org/digitalconstruction/OccupantBehavior#jobtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#jobtype> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#jobtype> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#lifestyle
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#lifestyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#lifestyle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#lifestyle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#lifestyle
+<https://w3id.org/digitalconstruction/OccupantBehavior#lifestyle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#lifestyle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#lifestyle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#maxOccupancy
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#maxOccupancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#maxOccupancy
+<https://w3id.org/digitalconstruction/OccupantBehavior#maxOccupancy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#modelParameters
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#modelParameters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#modelParameter
+<https://w3id.org/digitalconstruction/OccupantBehavior#modelParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Humidity> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Luminance> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Temperature> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#observationName
+<https://w3id.org/digitalconstruction/OccupantBehavior#observationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#observationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#Humidity> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#observationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#Luminance> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#observationName> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/digitalconstruction/OccupantBehavior#Temperature> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#occupantsNumber
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#occupantsNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#occupantsNumber
+<https://w3id.org/digitalconstruction/OccupantBehavior#occupantsNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#priority
+<https://w3id.org/digitalconstruction/OccupantBehavior#priority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#priority> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#priority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#profileversion
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#profileversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#profileversion
+<https://w3id.org/digitalconstruction/OccupantBehavior#profileversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#season
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#season
+<https://w3id.org/digitalconstruction/OccupantBehavior#season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#startTime
+<https://w3id.org/digitalconstruction/OccupantBehavior#startTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#version
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#version
+<https://w3id.org/digitalconstruction/OccupantBehavior#version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
 # 
 # 
@@ -230,224 +244,193 @@
 # #################################################################
 # 
 # 
-# http://www.w3.org/ns/sosa/ActuatableProperty
-<http://www.w3.org/ns/sosa/ActuatableProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+# https://w3id.org/digitalconstruction/Entities#Location
+<https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actuationName> .
-_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-# 
-# http://www.w3.org/ns/sosa/ObservableProperty
-<http://www.w3.org/ns/sosa/ObservableProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasActivity> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> .
+<https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#observationName> .
-_:genid2 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-# 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Acoustics
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Acoustics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Acoustics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Acoustics> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustics Comfort" .
-# 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/sosa/Actuation> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupancyProfile> .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> .
+<https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description> .
-_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupant> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> .
+<https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#actionType> .
-_:genid4 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid4 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-# 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasZoneComfortProfile> .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> .
+<https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityComfortProfile> .
-_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#maxOccupancy> .
+_:genid5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/digitalconstruction/OccupantBehavior#AcousticComfort
+<https://w3id.org/digitalconstruction/OccupantBehavior#AcousticComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#AcousticComfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#AcousticComfort> <http://www.w3.org/2000/01/rdf-schema#label> "Acoustic Comfort" .
+# 
+# https://w3id.org/digitalconstruction/OccupantBehavior#Action
+<https://w3id.org/digitalconstruction/OccupantBehavior#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/Entities#Activity> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasArtefacts> .
-_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/ssn/System> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#description> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#description> .
-_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#actionType> .
+_:genid7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort
+<https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime> .
-_:genid8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasModelParameter> .
+_:genid8 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivityName> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#comfortName> .
 _:genid9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime> .
-_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#comment> "The list of building activities performed in the building environment" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> <http://www.w3.org/2000/01/rdf-schema#label> "Building Activities" .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion> .
+_:genid10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> <http://www.w3.org/2000/01/rdf-schema#comment> "Comfort parameter represent the physical and non-physical requirement of the occupant's inside world that must be met in order to ensure the satisfaction of the occupant with their environment" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioral Comfort" .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+# https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity
+<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/Entities#Activity> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasModelParameters> .
-_:genid11 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid11 <http://www.w3.org/2002/07/owl#onClass> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityComfortProfile> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortName> .
-_:genid12 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact> .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/Entities#IdentifiableEntity> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "The list of building activities performed in the building environment" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#label> "Building Activity" .
+# 
+# https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#comfortVersion> .
-_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> <http://www.w3.org/2000/01/rdf-schema#comment> "Comfort parameter represent the physical and non-physical requirement of the occupant's inside world that must be met in order to ensure the satisfaction of the occupant with their environment" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioural Comfort Aspects" .
-# 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#createdTime> .
+_:genid13 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#createdTime> .
-_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#modelParameter> .
+_:genid14 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#modelParameters> .
-_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#season> .
+_:genid15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#season> .
-_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#version> .
+_:genid16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#version> .
-_:genid17 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#date> .
+_:genid17 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/2000/01/rdf-schema#comment> "The detailed model parameters associated with profiling method to be considered for comfort analysis" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/2000/01/rdf-schema#label> "Comfort Profiling Model Result" .
+# 
+# https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#date> .
-_:genid18 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid18 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/2000/01/rdf-schema#comment> "The detailed model parameters associated with profiling method to be considered for comfort analysis" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ModelResult> <http://www.w3.org/2000/01/rdf-schema#label> "Comfort Profiling Model Results" .
-# 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#containsOccupant> .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
 _:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#containsOccupants> .
-_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#endTime> .
+_:genid19 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#endTime> .
-_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#occupantsNumber> .
+_:genid20 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#occupantsNumber> .
-_:genid21 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#startTime> .
+_:genid21 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupant profiles refers to the daily or most common ocupation profiles inside the building (e.g start or end work)" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Occupancy Profiles" .
+# 
+# https://w3id.org/digitalconstruction/OccupantBehavior#Occupant
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/Agents#Person> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#startTime> .
-_:genid22 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTimeStamp> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupant profiles refers to the daily or most common ocupation profiles inside the building (e.g start or end work)" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> <http://www.w3.org/2000/01/rdf-schema#label> "Occupancy Profiles" .
-# 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#performsAction> .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#Action> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActions> .
-_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#performsActivity> .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#performsActivities> .
-_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior> .
+_:genid24 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasBehaviour> .
-_:genid25 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid25 <http://www.w3.org/2002/07/owl#onClass> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#jobtype> .
+_:genid25 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://xmlns.com/foaf/0.1/name> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#priority> .
 _:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#jobtype> .
-_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#age> .
+_:genid27 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#priority> .
-_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#gender> .
+_:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupant entity in the model" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#label> "Building Occupant" .
+# 
+# https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#age> .
-_:genid29 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasAction> .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#Action> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#gender> .
-_:genid30 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid30 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupant entity in the model" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> <http://www.w3.org/2000/01/rdf-schema#label> "Building Occupant" .
-# 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasDriver> .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.obolibrary.org/obo/BFO_0000019> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid31 .
 _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActions> .
-_:genid31 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Actions> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort> .
+_:genid31 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid32 .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasDrivers> .
-_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/ns/sosa/ObservableProperty> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasComfort> .
-_:genid33 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid34 .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#profileversion> .
-_:genid34 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:genid34 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupant behavioural analysis refers to the building occupants preferences regarding the comfort sensation along wiht interaction with the different systems under different contextual and operational conditions" .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupantBehaviour> <http://www.w3.org/2000/01/rdf-schema#label> "Occupant  Behavioural Conditions" .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#profileversion> .
+_:genid32 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid32 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupant behavioral analysis refers to the building occupants preferences regarding the comfort sensation along wiht interaction with the different systems under different contextual and operational conditions" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Occupant Behavior" .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Thermal
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Thermal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Thermal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Thermal> <http://www.w3.org/2000/01/rdf-schema#label> "Thermal Comfort" .
+# https://w3id.org/digitalconstruction/OccupantBehavior#ThermalComfort
+<https://w3id.org/digitalconstruction/OccupantBehavior#ThermalComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ThermalComfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#ThermalComfort> <http://www.w3.org/2000/01/rdf-schema#label> "Thermal Comfort" .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Visual
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Visual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Visual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> .
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Visual> <http://www.w3.org/2000/01/rdf-schema#label> "Visual Comfort" .
-# 
-# https://w3id.org/bot#Zone
-<https://w3id.org/bot#Zone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid35 .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasActivities> .
-_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Activities> .
-<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid36 .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccProfiles> .
-_:genid36 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#OccupancyProfile> .
-<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasOccupants> .
-_:genid37 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Occupant> .
-<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid38 .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#hasZoneComfortProfile> .
-_:genid38 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#Comfort> .
-<https://w3id.org/bot#Zone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid39 .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#maxOccupancy> .
-_:genid39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/XMLSchema#integer> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#VisualComfort
+<https://w3id.org/digitalconstruction/OccupantBehavior#VisualComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#VisualComfort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#VisualComfort> <http://www.w3.org/2000/01/rdf-schema#label> "Visual Comfort" .
 # 
 # 
 # 
@@ -458,31 +441,31 @@ _:genid39 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2001/
 # #################################################################
 # 
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ACOUSTICS
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#ACOUSTICS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#ACOUSTICS
+<https://w3id.org/digitalconstruction/OccupantBehavior#ACOUSTICS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#DIMMER
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#DIMMER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#DIMMER
+<https://w3id.org/digitalconstruction/OccupantBehavior#DIMMER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#IAQ
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#IAQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#IAQ
+<https://w3id.org/digitalconstruction/OccupantBehavior#IAQ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#LAMP
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#LAMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#LAMP
+<https://w3id.org/digitalconstruction/OccupantBehavior#LAMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#RADIATORVALVE
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#RADIATORVALVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#RADIATORVALVE
+<https://w3id.org/digitalconstruction/OccupantBehavior#RADIATORVALVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SWITCH
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#SWITCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#SWITCH
+<https://w3id.org/digitalconstruction/OccupantBehavior#SWITCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMAL
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#THERMAL
+<https://w3id.org/digitalconstruction/OccupantBehavior#THERMAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMOSTAT
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#THERMOSTAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#THERMOSTAT
+<https://w3id.org/digitalconstruction/OccupantBehavior#THERMOSTAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#VISUAL
-<https://github.com/Suite5/bim4eeb-ontologies/blob/master/occupantBehaviour.ttl#VISUAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# https://w3id.org/digitalconstruction/OccupantBehavior#VISUAL
+<https://w3id.org/digitalconstruction/OccupantBehavior#VISUAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/
