@@ -16,6 +16,7 @@
                                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                          <http://purl.org/dc/terms/title> "Digital Construction - OccupantBehavior" ;
                                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "dico" ;
+                                                         <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/OccupantBehavior" ;
                                                          rdfs:label "Digital construction - OccupantBehavior" ;
                                                          rdfs:seeAlso <https://w3id.org/digitalconstruction> .
 
@@ -31,12 +32,8 @@
 <http://purl.org/dc/terms/abstract> rdf:type owl:AnnotationProperty .
 
 
-###  http://purl.org/dc/terms/description
-<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
-
-
-###  http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -108,12 +105,14 @@
 
 
 ###  https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact
-:hasArtefact rdf:type owl:ObjectProperty .
+:hasArtefact rdf:type owl:ObjectProperty ;
+             rdfs:label "hasArtefact" .
 
 
 ###  https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior
 :hasBehavior rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty .
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:label "hasBehavior" .
 
 
 ###  https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort
@@ -281,6 +280,10 @@
 #    Classes
 #################################################################
 
+###  https://w3id.org/digitalconstruction/Entities#IdentifiableEntity
+<https://w3id.org/digitalconstruction/Entities#IdentifiableEntity> rdf:type owl:Class .
+
+
 ###  https://w3id.org/digitalconstruction/Entities#Location
 <https://w3id.org/digitalconstruction/Entities#Location> rdf:type owl:Class ;
                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
@@ -322,7 +325,8 @@
                           owl:onProperty :actionType ;
                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onDataRange xsd:string
-                        ] .
+                        ] ;
+        rdfs:label "Action" .
 
 
 ###  https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort
@@ -356,7 +360,7 @@
                                     owl:someValuesFrom <https://w3id.org/digitalconstruction/Entities#IdentifiableEntity>
                                   ] ;
                   rdfs:comment "The list of building activities performed in the building environment" ;
-                  rdfs:label "Building Activity" .
+                  rdfs:label "BuildingActivity" .
 
 
 ###  https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult
@@ -442,7 +446,7 @@
                             owl:onDataRange xsd:string
                           ] ;
           rdfs:comment "The occupant entity in the model" ;
-          rdfs:label "Building Occupant" .
+          rdfs:label "BuildingOccupant" .
 
 
 ###  https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior

@@ -317,11 +317,11 @@
   "@id" : "http://purl.org/dc/terms/abstract",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/dc/terms/description",
+  "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@id" : "https://w3id.org/digitalconstruction/Entities#IdentifiableEntity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/Entities#Location",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -362,6 +362,9 @@
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "dico"
   } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/digitalconstruction/OccupantBehavior"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Digital construction - OccupantBehavior"
   } ],
@@ -386,6 +389,9 @@
 }, {
   "@id" : "https://w3id.org/digitalconstruction/OccupantBehavior#Action",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Action"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/digitalconstruction/Entities#Activity"
   }, {
@@ -416,7 +422,7 @@
     "@value" : "The list of building activities performed in the building environment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Building Activity"
+    "@value" : "BuildingActivity"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/digitalconstruction/Entities#Activity"
@@ -497,7 +503,7 @@
     "@value" : "The occupant entity in the model"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Building Occupant"
+    "@value" : "BuildingOccupant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/digitalconstruction/Agents#Person"
@@ -681,10 +687,16 @@
   } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasArtefact"
+  } ]
 }, {
   "@id" : "https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasBehavior"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]

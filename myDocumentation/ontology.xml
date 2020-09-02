@@ -2,17 +2,11 @@
 <rdf:RDF xmlns="https://w3id.org/digitalconstruction/OccupantBehavior#"
      xml:base="https://w3id.org/digitalconstruction/OccupantBehavior"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:org="http://www.w3.org/ns/org#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior">
@@ -25,6 +19,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Digital Construction - OccupantBehavior</terms:title>
         <vann:preferredNamespacePrefix>dico</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/digitalconstruction/OccupantBehavior</vann:preferredNamespaceUri>
         <rdfs:label>Digital construction - OccupantBehavior</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://w3id.org/digitalconstruction"/>
     </owl:Ontology>
@@ -57,17 +52,10 @@
     
 
 
-    <!-- http://purl.org/dc/terms/description -->
+    <!-- http://purl.org/dc/terms/title -->
 
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
-    
-
-
-    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
     
 
 
@@ -203,7 +191,9 @@
     <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact">
+        <rdfs:label>hasArtefact</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -212,6 +202,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>hasBehavior</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -506,6 +497,13 @@
     
 
 
+    <!-- https://w3id.org/digitalconstruction/Entities#IdentifiableEntity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/Entities#IdentifiableEntity"/>
+    
+
+
     <!-- https://w3id.org/digitalconstruction/Entities#Location -->
 
 
@@ -572,6 +570,7 @@
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>Action</rdfs:label>
     </owl:Class>
     
 
@@ -623,7 +622,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The list of building activities performed in the building environment</rdfs:comment>
-        <rdfs:label>Building Activity</rdfs:label>
+        <rdfs:label>BuildingActivity</rdfs:label>
     </owl:Class>
     
 
@@ -753,7 +752,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The occupant entity in the model</rdfs:comment>
-        <rdfs:label>Building Occupant</rdfs:label>
+        <rdfs:label>BuildingOccupant</rdfs:label>
     </owl:Class>
     
 

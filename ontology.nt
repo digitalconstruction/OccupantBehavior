@@ -8,6 +8,7 @@
 <https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/dc/terms/title> "Digital Construction - OccupantBehavior" .
 <https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/vocab/vann/preferredNamespacePrefix> "dico" .
+<https://w3id.org/digitalconstruction/OccupantBehavior> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/OccupantBehavior" .
 <https://w3id.org/digitalconstruction/OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Digital construction - OccupantBehavior" .
 <https://w3id.org/digitalconstruction/OccupantBehavior> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://w3id.org/digitalconstruction> .
 # 
@@ -25,11 +26,8 @@
 # http://purl.org/dc/terms/abstract
 <http://purl.org/dc/terms/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/description
-<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -96,10 +94,12 @@
 # 
 # https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact
 <https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact> <http://www.w3.org/2000/01/rdf-schema#label> "hasArtefact" .
 # 
 # https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior
 <https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "hasBehavior" .
 # 
 # https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort
 <https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -244,6 +244,9 @@
 # #################################################################
 # 
 # 
+# https://w3id.org/digitalconstruction/Entities#IdentifiableEntity
+<https://w3id.org/digitalconstruction/Entities#IdentifiableEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
 # https://w3id.org/digitalconstruction/Entities#Location
 <https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/digitalconstruction/Entities#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
@@ -284,6 +287,7 @@ _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 _:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#actionType> .
 _:genid7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid7 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Action> <http://www.w3.org/2000/01/rdf-schema#label> "Action" .
 # 
 # https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort
 <https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -315,7 +319,7 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid12 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact> .
 _:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/digitalconstruction/Entities#IdentifiableEntity> .
 <https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "The list of building activities performed in the building environment" .
-<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#label> "Building Activity" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity> <http://www.w3.org/2000/01/rdf-schema#label> "BuildingActivity" .
 # 
 # https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult
 <https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -398,7 +402,7 @@ _:genid28 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/digitalco
 _:genid28 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid28 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#string> .
 <https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#comment> "The occupant entity in the model" .
-<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#label> "Building Occupant" .
+<https://w3id.org/digitalconstruction/OccupantBehavior#Occupant> <http://www.w3.org/2000/01/rdf-schema#label> "BuildingOccupant" .
 # 
 # https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior
 <https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
