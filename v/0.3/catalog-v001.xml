@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/bfo/2018-10-27/iso-21838.owl" uri="file:/Users/sto/ontologies/BFO-ISO-2018-07-24/owl/bfo-2020.ttl"/>
+    <uri id="Imports Wizard Entry" name="https://w3id.org/digitalconstruction/Entities#" uri="https://w3id.org/digitalconstruction/Entities"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1591705028683" name="https://w3id.org/digitalconstruction/OccupantBehavior" uri="ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1591705028683" name="shadowed:https://w3id.org/digitalconstruction/OccupantBehavior" uri="v/0.1/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1591705028683" name="shadowed:https://w3id.org/digitalconstruction/OccupantBehavior" uri="v/0.1/myDocumentation/ontology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1591705028683" name="shadowed:https://w3id.org/digitalconstruction/OccupantBehavior" uri="myDocumentation/ontology.xml"/>
+    </group>
+</catalog>
