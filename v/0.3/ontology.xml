@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/digitalconstruction/OccupantBehavior#"
-     xml:base="https://w3id.org/digitalconstruction/OccupantBehavior"
+<rdf:RDF xmlns="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#"
+     xml:base="https://w3id.org/digitalconstruction/0.3/OccupantBehavior"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,8 +9,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior">
-        <owl:imports rdf:resource="https://w3id.org/digitalconstruction/Agents#"/>
+    <owl:Ontology rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior">
+        <owl:imports rdf:resource="https://w3id.org/digitalconstruction/0.3/Agents#"/>
         <dc:date>2019-12-20</dc:date>
         <terms:abstract>Ontology of occupants behavior inside a building, including the environment and users interactions to set the parameters of comfort behavioral profile</terms:abstract>
         <terms:creator>Kostas Tsatsakis (kostas@suite5.eu)</terms:creator>
@@ -19,7 +19,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Digital Construction - OccupantBehavior</terms:title>
         <vann:preferredNamespacePrefix>dico</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/digitalconstruction/OccupantBehavior</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri>https://w3id.org/digitalconstruction/0.3/OccupantBehavior</vann:preferredNamespaceUri>
         <rdfs:label>Digital construction - OccupantBehavior</rdfs:label>
         <rdfs:seeAlso rdf:resource="https://w3id.org/digitalconstruction"/>
     </owl:Ontology>
@@ -71,80 +71,80 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Feedback -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Feedback -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Feedback"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Feedback"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#HVAC -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#HVAC -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#HVAC"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#HVAC"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Humidity -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Humidity -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Humidity"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Humidity"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Inaction -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Inaction -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Inaction"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Inaction"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Lights -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Lights -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Lights"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Lights"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Luminance -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Luminance -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Luminance"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Luminance"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Radiator -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Radiator -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Radiator"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Radiator"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#SystemAction -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#SystemAction -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#SystemAction"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#SystemAction"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Temperature -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Temperature -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Temperature"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Temperature"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#weekend -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#weekend -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#weekend"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#weekend"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#workday -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#workday -->
 
 
-    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#workday"/>
+    <rdfs:Datatype rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#workday"/>
     
 
 
@@ -160,113 +160,113 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#containsOccupant -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#containsOccupant -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#containsOccupant"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#containsOccupant"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasAction -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasAction -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasAction"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasAction"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasActivity -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivity -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasActivity"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivity"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityComfortProfile -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivityComfortProfile -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityComfortProfile"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivityComfortProfile"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasArtefact -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasArtefact">
         <rdfs:label>hasArtefact</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasBehavior -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior">
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasBehavior">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:label>hasBehavior</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasComfort -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasComfort"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasDevice -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasDevice -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasDevice"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasDevice"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasDriver -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasDriver -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasDriver"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasDriver"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasModelParameter -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasModelParameter -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasModelParameter"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasModelParameter"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupancyProfile -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupancyProfile -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupancyProfile"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupancyProfile"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupant -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupant -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupant"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupant"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasZoneComfortProfile -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasZoneComfortProfile -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasZoneComfortProfile"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasZoneComfortProfile"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#performsAction -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsAction -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#performsAction"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsAction"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#performsActivity -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsActivity -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#performsActivity"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsActivity"/>
     
 
 
@@ -282,206 +282,206 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#actionType -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#actionType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#actionType">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Feedback"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Inaction"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#SystemAction"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#actionType">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Feedback"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Inaction"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#SystemAction"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#actuationName -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#actuationName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#actuationName">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#HVAC"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Lights"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Radiator"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#actuationName">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#HVAC"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Lights"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Radiator"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#age -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#age -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#age">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#age">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#comfortName -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#comfortName">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#comfortType -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortType -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#comfortType">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortType">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortVersion -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortVersion">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#createdTime -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#createdTime -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#createdTime"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#createdTime"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#date -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#date -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#date">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#weekend"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#workday"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#date">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#weekend"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#workday"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#description -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#description -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#description"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#description"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#endTime -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#endTime -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#endTime"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#endTime"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#gender -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#gender -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#gender">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#gender">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityName -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivityName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityName">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivityName">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#jobtype -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#jobtype -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#jobtype">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#jobtype">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#lifestyle -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#lifestyle -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#lifestyle">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#lifestyle">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#maxOccupancy -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#maxOccupancy -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#maxOccupancy"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#maxOccupancy"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#modelParameter -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#modelParameter -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#modelParameter"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#modelParameter"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#observationName -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#observationName -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#observationName">
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Humidity"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Luminance"/>
-        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Temperature"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#observationName">
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Humidity"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Luminance"/>
+        <rdfs:range rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Temperature"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#occupantsNumber -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#occupantsNumber -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#occupantsNumber"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#occupantsNumber"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#priority -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#priority -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#priority">
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#priority">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#profileversion -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#profileversion -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#profileversion"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#profileversion"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#season -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#season -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#season"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#season"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#startTime -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#startTime -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#startTime"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#startTime"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#version -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#version -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#version"/>
+    <owl:DatatypeProperty rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#version"/>
     
 
 
@@ -497,44 +497,44 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/Entities#IdentifiableEntity -->
+    <!-- https://w3id.org/digitalconstruction/0.3/Entities#IdentifiableEntity -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/Entities#IdentifiableEntity"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/Entities#IdentifiableEntity"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/Entities#Location -->
+    <!-- https://w3id.org/digitalconstruction/0.3/Entities#Location -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/Entities#Location">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/Entities#Location">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasActivity"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivity"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BuildingActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupancyProfile"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupancyProfile"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupancyProfile"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupant"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Occupant"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupant"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Occupant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasZoneComfortProfile"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasZoneComfortProfile"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#maxOccupancy"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#maxOccupancy"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -542,30 +542,30 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#AcousticComfort -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#AcousticComfort -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#AcousticComfort">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#AcousticComfort">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort"/>
         <rdfs:label>Acoustic Comfort</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Action -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Action -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Action">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Entities#Activity"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Action">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Entities#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#description"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#description"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#actionType"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#actionType"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -575,26 +575,26 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasModelParameter"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasModelParameter"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult"/>
+                <owl:onClass rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ModelResult"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#comfortName"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortName"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortVersion"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -604,21 +604,21 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BuildingActivity -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Entities#Activity"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BuildingActivity">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Entities#Activity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityComfortProfile"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivityComfortProfile"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/Entities#IdentifiableEntity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasArtefact"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/Entities#IdentifiableEntity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The list of building activities performed in the building environment</rdfs:comment>
@@ -627,37 +627,37 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ModelResult -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ModelResult">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#createdTime"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#createdTime"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#modelParameter"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#modelParameter"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#season"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#season"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#version"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#version"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#date"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#date"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -668,31 +668,31 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupancyProfile -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupancyProfile">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#containsOccupant"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Occupant"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#containsOccupant"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Occupant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#endTime"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#endTime"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#occupantsNumber"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#occupantsNumber"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#startTime"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#startTime"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -702,51 +702,51 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#Occupant -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Occupant -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#Occupant">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/Agents#Person"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Occupant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/Agents#Person"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#performsAction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Action"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsAction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Action"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#performsActivity"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsActivity"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BuildingActivity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasBehavior"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior"/>
+                <owl:onClass rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupantBehavior"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#jobtype"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#jobtype"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#priority"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#priority"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#age"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#age"/>
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#gender"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#gender"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
@@ -757,31 +757,31 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupantBehavior -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior">
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupantBehavior">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasAction"/>
-                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#Action"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasAction"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Action"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasDriver"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasDriver"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasComfort"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#profileversion"/>
+                <owl:onProperty rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#profileversion"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
             </owl:Restriction>
@@ -792,21 +792,21 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#ThermalComfort -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ThermalComfort -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#ThermalComfort">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ThermalComfort">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort"/>
         <rdfs:label>Thermal Comfort</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#VisualComfort -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#VisualComfort -->
 
 
-    <owl:Class rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#VisualComfort">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort"/>
+    <owl:Class rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#VisualComfort">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort"/>
         <rdfs:label>Visual Comfort</rdfs:label>
     </owl:Class>
     
@@ -824,66 +824,66 @@
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#ACOUSTICS -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ACOUSTICS -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#ACOUSTICS"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ACOUSTICS"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#DIMMER -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#DIMMER -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#DIMMER"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#DIMMER"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#IAQ -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#IAQ -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#IAQ"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#IAQ"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#LAMP -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#LAMP -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#LAMP"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#LAMP"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#RADIATORVALVE -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#RADIATORVALVE -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#RADIATORVALVE"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#RADIATORVALVE"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#SWITCH -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#SWITCH -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#SWITCH"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#SWITCH"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#THERMAL -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#THERMAL -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#THERMAL"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#THERMAL"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#THERMOSTAT -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#THERMOSTAT -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#THERMOSTAT"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#THERMOSTAT"/>
     
 
 
-    <!-- https://w3id.org/digitalconstruction/OccupantBehavior#VISUAL -->
+    <!-- https://w3id.org/digitalconstruction/0.3/OccupantBehavior#VISUAL -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/OccupantBehavior#VISUAL"/>
+    <owl:NamedIndividual rdf:about="https://w3id.org/digitalconstruction/0.3/OccupantBehavior#VISUAL"/>
 </rdf:RDF>
 
 

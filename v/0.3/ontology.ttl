@@ -1,13 +1,13 @@
-@prefix : <https://w3id.org/digitalconstruction/OccupantBehavior#> .
+@prefix : <https://w3id.org/digitalconstruction/0.3/OccupantBehavior#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/digitalconstruction/OccupantBehavior> .
+@base <https://w3id.org/digitalconstruction/0.3/OccupantBehavior> .
 
-<https://w3id.org/digitalconstruction/OccupantBehavior> rdf:type owl:Ontology ;
-                                                         owl:imports <https://w3id.org/digitalconstruction/Agents#> ;
+<https://w3id.org/digitalconstruction/0.3/OccupantBehavior> rdf:type owl:Ontology ;
+                                                         owl:imports <https://w3id.org/digitalconstruction/0.3/Agents#> ;
                                                          <http://purl.org/dc/elements/1.1/date> "2019-12-20" ;
                                                          <http://purl.org/dc/terms/abstract> "Ontology of occupants behavior inside a building, including the environment and users interactions to set the parameters of comfort behavioral profile" ;
                                                          <http://purl.org/dc/terms/creator> "Kostas Tsatsakis (kostas@suite5.eu)" ,
@@ -16,7 +16,7 @@
                                                          <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                          <http://purl.org/dc/terms/title> "Digital Construction - OccupantBehavior" ;
                                                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "dico" ;
-                                                         <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/OccupantBehavior" ;
+                                                         <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/digitalconstruction/0.3/OccupantBehavior" ;
                                                          rdfs:label "Digital construction - OccupantBehavior" ;
                                                          rdfs:seeAlso <https://w3id.org/digitalconstruction> .
 
@@ -40,47 +40,47 @@
 #    Datatypes
 #################################################################
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Feedback
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Feedback
 :Feedback rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#HVAC
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#HVAC
 :HVAC rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Humidity
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Humidity
 :Humidity rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Inaction
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Inaction
 :Inaction rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Lights
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Lights
 :Lights rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Luminance
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Luminance
 :Luminance rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Radiator
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Radiator
 :Radiator rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#SystemAction
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#SystemAction
 :SystemAction rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Temperature
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Temperature
 :Temperature rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#weekend
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#weekend
 :weekend rdf:type rdfs:Datatype .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#workday
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#workday
 :workday rdf:type rdfs:Datatype .
 
 
@@ -88,66 +88,66 @@
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#containsOccupant
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#containsOccupant
 :containsOccupant rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasAction
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasAction
 :hasAction rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasActivity
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivity
 :hasActivity rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityComfortProfile
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivityComfortProfile
 :hasActivityComfortProfile rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasArtefact
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasArtefact
 :hasArtefact rdf:type owl:ObjectProperty ;
              rdfs:label "hasArtefact" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasBehavior
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasBehavior
 :hasBehavior rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:label "hasBehavior" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasComfort
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasComfort
 :hasComfort rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasDevice
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasDevice
 :hasDevice rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasDriver
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasDriver
 :hasDriver rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasModelParameter
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasModelParameter
 :hasModelParameter rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupancyProfile
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupancyProfile
 :hasOccupancyProfile rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasOccupant
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasOccupant
 :hasOccupant rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasZoneComfortProfile
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasZoneComfortProfile
 :hasZoneComfortProfile rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#performsAction
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsAction
 :performsAction rdf:type owl:ObjectProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#performsActivity
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#performsActivity
 :performsActivity rdf:type owl:ObjectProperty .
 
 
@@ -155,124 +155,124 @@
 #    Data properties
 #################################################################
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#actionType
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#actionType
 :actionType rdf:type owl:DatatypeProperty ;
             rdfs:range :Feedback ,
                        :Inaction ,
                        :SystemAction .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#actuationName
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#actuationName
 :actuationName rdf:type owl:DatatypeProperty ;
                rdfs:range :HVAC ,
                           :Lights ,
                           :Radiator .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#age
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#age
 :age rdf:type owl:DatatypeProperty ;
      rdfs:subPropertyOf owl:topDataProperty ;
      rdfs:range xsd:integer .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#comfortName
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortName
 :comfortName rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:range xsd:string .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#comfortType
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortType
 :comfortType rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:range xsd:string .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#comfortVersion
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#comfortVersion
 :comfortVersion rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
                 rdfs:range xsd:integer .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#createdTime
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#createdTime
 :createdTime rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#date
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#date
 :date rdf:type owl:DatatypeProperty ;
       rdfs:range :weekend ,
                  :workday .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#description
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#description
 :description rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#endTime
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#endTime
 :endTime rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#gender
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#gender
 :gender rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
         rdfs:range xsd:string .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#hasActivityName
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#hasActivityName
 :hasActivityName rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf owl:topDataProperty ;
                  rdfs:range xsd:string .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#jobtype
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#jobtype
 :jobtype rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:range xsd:string .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#lifestyle
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#lifestyle
 :lifestyle rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:range xsd:string .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#maxOccupancy
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#maxOccupancy
 :maxOccupancy rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#modelParameter
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#modelParameter
 :modelParameter rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#observationName
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#observationName
 :observationName rdf:type owl:DatatypeProperty ;
                  rdfs:range :Humidity ,
                             :Luminance ,
                             :Temperature .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#occupantsNumber
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#occupantsNumber
 :occupantsNumber rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#priority
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#priority
 :priority rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:range xsd:string .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#profileversion
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#profileversion
 :profileversion rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#season
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#season
 :season rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#startTime
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#startTime
 :startTime rdf:type owl:DatatypeProperty .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#version
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#version
 :version rdf:type owl:DatatypeProperty .
 
 
@@ -280,12 +280,12 @@
 #    Classes
 #################################################################
 
-###  https://w3id.org/digitalconstruction/Entities#IdentifiableEntity
-<https://w3id.org/digitalconstruction/Entities#IdentifiableEntity> rdf:type owl:Class .
+###  https://w3id.org/digitalconstruction/0.3/Entities#IdentifiableEntity
+<https://w3id.org/digitalconstruction/0.3/Entities#IdentifiableEntity> rdf:type owl:Class .
 
 
-###  https://w3id.org/digitalconstruction/Entities#Location
-<https://w3id.org/digitalconstruction/Entities#Location> rdf:type owl:Class ;
+###  https://w3id.org/digitalconstruction/0.3/Entities#Location
+<https://w3id.org/digitalconstruction/0.3/Entities#Location> rdf:type owl:Class ;
                                                          rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                                            owl:onProperty :hasActivity ;
                                                                            owl:someValuesFrom :BuildingActivity
@@ -308,15 +308,15 @@
                                                                          ] .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#AcousticComfort
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#AcousticComfort
 :AcousticComfort rdf:type owl:Class ;
                  rdfs:subClassOf :BehavioralComfort ;
                  rdfs:label "Acoustic Comfort" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Action
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Action
 :Action rdf:type owl:Class ;
-        rdfs:subClassOf <https://w3id.org/digitalconstruction/Entities#Activity> ,
+        rdfs:subClassOf <https://w3id.org/digitalconstruction/0.3/Entities#Activity> ,
                         [ rdf:type owl:Restriction ;
                           owl:onProperty :description ;
                           owl:someValuesFrom xsd:string
@@ -329,7 +329,7 @@
         rdfs:label "Action" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#BehavioralComfort
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BehavioralComfort
 :BehavioralComfort rdf:type owl:Class ;
                    rdfs:subClassOf [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasModelParameter ;
@@ -348,22 +348,22 @@
                    rdfs:label "Behavioral Comfort" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#BuildingActivity
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#BuildingActivity
 :BuildingActivity rdf:type owl:Class ;
-                  rdfs:subClassOf <https://w3id.org/digitalconstruction/Entities#Activity> ,
+                  rdfs:subClassOf <https://w3id.org/digitalconstruction/0.3/Entities#Activity> ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasActivityComfortProfile ;
                                     owl:someValuesFrom :BehavioralComfort
                                   ] ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasArtefact ;
-                                    owl:someValuesFrom <https://w3id.org/digitalconstruction/Entities#IdentifiableEntity>
+                                    owl:someValuesFrom <https://w3id.org/digitalconstruction/0.3/Entities#IdentifiableEntity>
                                   ] ;
                   rdfs:comment "The list of building activities performed in the building environment" ;
                   rdfs:label "BuildingActivity" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#ModelResult
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ModelResult
 :ModelResult rdf:type owl:Class ;
              rdfs:subClassOf [ rdf:type owl:Restriction ;
                                owl:onProperty :createdTime ;
@@ -390,7 +390,7 @@
              rdfs:label "Comfort Profiling Model Result" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#OccupancyProfile
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupancyProfile
 :OccupancyProfile rdf:type owl:Class ;
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :containsOccupant ;
@@ -412,9 +412,9 @@
                   rdfs:label "Occupancy Profiles" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#Occupant
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#Occupant
 :Occupant rdf:type owl:Class ;
-          rdfs:subClassOf <https://w3id.org/digitalconstruction/Agents#Person> ,
+          rdfs:subClassOf <https://w3id.org/digitalconstruction/0.3/Agents#Person> ,
                           [ rdf:type owl:Restriction ;
                             owl:onProperty :performsAction ;
                             owl:someValuesFrom :Action
@@ -449,7 +449,7 @@
           rdfs:label "BuildingOccupant" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#OccupantBehavior
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#OccupantBehavior
 :OccupantBehavior rdf:type owl:Class ;
                   rdfs:subClassOf [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasAction ;
@@ -472,13 +472,13 @@
                   rdfs:label "Occupant Behavior" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#ThermalComfort
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ThermalComfort
 :ThermalComfort rdf:type owl:Class ;
                 rdfs:subClassOf :BehavioralComfort ;
                 rdfs:label "Thermal Comfort" .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#VisualComfort
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#VisualComfort
 :VisualComfort rdf:type owl:Class ;
                rdfs:subClassOf :BehavioralComfort ;
                rdfs:label "Visual Comfort" .
@@ -488,39 +488,39 @@
 #    Individuals
 #################################################################
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#ACOUSTICS
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#ACOUSTICS
 :ACOUSTICS rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#DIMMER
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#DIMMER
 :DIMMER rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#IAQ
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#IAQ
 :IAQ rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#LAMP
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#LAMP
 :LAMP rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#RADIATORVALVE
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#RADIATORVALVE
 :RADIATORVALVE rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#SWITCH
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#SWITCH
 :SWITCH rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#THERMAL
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#THERMAL
 :THERMAL rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#THERMOSTAT
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#THERMOSTAT
 :THERMOSTAT rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/digitalconstruction/OccupantBehavior#VISUAL
+###  https://w3id.org/digitalconstruction/0.3/OccupantBehavior#VISUAL
 :VISUAL rdf:type owl:NamedIndividual .
 
 
